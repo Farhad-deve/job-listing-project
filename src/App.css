@@ -1,0 +1,38 @@
+.position:hover {
+    color: var(--green-400);
+}
+.role:hover,
+.level:hover,
+.language:hover,
+.tool:hover {
+    background-color: var(--green-400);
+    color: var(--white);
+}
+.clear-all {
+    background-image: linear-gradient(var(--green-400));
+    background-size: 0 2px;
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+}
+.clear-all:hover {
+    background-size: 100% 2px;
+}
+.remove-tag:hover {
+    background-color: var(--green-900);
+}
+.line {
+    background-color: var(--gray-400);
+    height: 1px;
+}
+
+@media (max-width: 58rem) {
+    .position {
+        font-size: 1rem;
+    }
+    li, p, span {
+        font-size: 0.9rem;
+    }
+    .logo {
+        width: 3rem;
+    }
+}
